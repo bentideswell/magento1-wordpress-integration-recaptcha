@@ -1,5 +1,5 @@
 <_>
-   <form_key>TjmrumrUUx2JDpyL</form_key>
+   <form_key>fUEABnaeD1cSdPcA</form_key>
    <name>Fishpig_Wordpress_Addon_ReCaptcha</name>
    <channel>community</channel>
    <version_ids>
@@ -9,7 +9,7 @@
    <description>Add ReCaptcha to your integrated blog comment forms</description>
    <license>FishPig EULA</license>
    <license_uri>http://fishpig.co.uk/license.txt</license_uri>
-   <version>1.3.0.1</version>
+   <version>1.3.0.2</version>
    <stability>stable</stability>
    <notes>Updated to new &quot;I&apos;m not a robot&quot; system.</notes>
    <authors>
@@ -40,7 +40,7 @@
             <max/>
          </max>
          <files>
-            <files>       </files>
+            <files>        </files>
          </files>
       </package>
       <extension>
