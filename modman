@@ -1,3 +1,2 @@
 app/code/community/Fishpig/Wordpress/Addon/ReCaptcha			app/code/community/Fishpig/Wordpress/Addon/ReCaptcha
 app/etc/modules/Fishpig_Wordpress_Addon_ReCaptcha.xml			app/etc/modules/Fishpig_Wordpress_Addon_ReCaptcha.xml
-var/connect/Fishpig_Wordpress_Addon_ReCaptcha.xml					var/connect/Fishpig_Wordpress_Addon_ReCaptcha.xml
