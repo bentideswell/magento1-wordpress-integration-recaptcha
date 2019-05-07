@@ -49,11 +49,13 @@ class Fishpig_Wordpress_Addon_ReCaptcha_Block_Captcha extends Mage_Core_Block_Te
 			return '';
 		}
 
-		$html = sprintf('<div class="g-recaptcha" data-sitekey="%s" data-theme="standard"></div><script type="text/javascript"src="https://www.google.com/recaptcha/api.js?hl=en"></script><div id="recaptcha-submit-btn-area">&nbsp;</div>', $this->getPublicKey());
-		
-		$noscript = '<noscript><style type=\'text/css\'>#submit {display:none;}</style><input name="submit" type="submit" id="submit-alt" tabindex="6" value="Submit Comment"/> </noscript>';
-            
-    return $html . $noscript;
+    return Mage::helper('wp_addon_recaptcha/core')->simulatedCallback(function() {
+      ob_start();
+      $plugin = new ReCAPTCHAPlugin('recaptcha_options');
+      $plugin->show_recaptcha_in_comments();
+
+      return ob_get_clean();
+    });
 	}
 	
 	/**
