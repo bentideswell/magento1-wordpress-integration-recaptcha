@@ -1,6 +1,6 @@
 {
-    "name": "bentideswell/magento1-wordpress-integration-recaptcha",
+    "name": "fishpig/magento1-wordpress-integration-recaptcha",
     "description": "",
-    "version": "2.0.0.1",
+    "version": "2.0.0.2",
     "type": "magento-module"
 }
